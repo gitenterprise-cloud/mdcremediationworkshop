@@ -3,7 +3,7 @@
 ## Deploying / creating the app
 Click on the **Deploy to Azure** button to create the Logic App in a target resource group.
 
-<a href="https://aka.ms/AAdd1bc" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fgitenterprise-cloud%2Fmdcremediationworkshop%2Fmain%2Fazuredeploy.json" target="_blank">
 <img src="https://aka.ms/deploytoazurebutton"/></a>
 
 We will also need to create a managed identity for this app. The remediation will require the permissions associated with this managed identity. Since this is testing environment we will give "Contributor" permissions to this identity
